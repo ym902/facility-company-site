@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+
+    <!-- CDN -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href=""><!-- アイコン -->
+    <meta name="" content="望月設備">
+</head>
+
+<!-- フォント -->
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;600;700&display=swap" rel="stylesheet">
+
+<!-- Font Awesome -->
+<script src="https://kit.fontawesome.com/a55d204f35.js" crossorigin="anonymous"></script>
+
+<body>
+
+<header>
+    <div class="header-inner">
+        <div class="header-menu">
+            <h1><a href="#">望月設備</a></h1>
+
+            <nav class="header-nav">
+                <ul>
+                    <li><a href="#services">取扱工事</a></li>
+                    <li><a href="#works">施工実績</a></li>
+                    <li><a href="#">会社情報</a></li>
+                    <li><a href="#news">お知らせ</a></li>
+                    <li><a href="#contact">お問い合せ</a></li>
+                </ul>
+            </nav>
+        </div><!--/.header-menu-->
+
+        <!-- メインビジュアル -->
+        <div class="mainvisual">
+            <div class="swiper js-swiper1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./img/mainvisual1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/mainvisual2.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/mainvisual3.jpg" alt=""></div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+        </div><!--/.mainvisual-->
+
+        <div class="contact-phone">
+            <a href="">
+                <p>今すぐ電話する</p>
+                <p><i class="fa-solid fa-arrow-right"></i></p>
+            </a>
+        </div>
+    </div><!--/.header-inner-->
+</header>
+
+<main>
+    <!-- 取扱工事 -->
+    <div id="services">
+        <div class="services-title">
+            <p>SERVICES</p>
+            <h2>取扱工事</h2>
+        </div>
+
+        <div class="services-menu">
+            <dl>
+                <a href="">
+                    <dd><p>ガス設備工事</p></dd>
+                    <dt><img src="./img/gas.jpg" alt=""></dt>
+                </a>
+            </dl>
+            <dl>
+                <a href="">
+                    <dd><p>電気設備工事</p></dd>
+                    <dt><img src="./img/electrics.jpg" alt=""></dt>
+                </a>
+            </dl>
+            <dl>
+                <a href="">
+                    <dd><p>給排水衛生設備工事</p></dd>
+                    <dt><img src="./img/bathroom.jpg" alt=""></dt>
+                </a>
+            </dl>
+            <dl>
+                <a href="">
+                    <dd><p>空調設備工事</p></dd>
+                    <dt><img src="./img/airconditioner.jpg" alt=""></dt>
+                </a>
+            </dl>
+
+            <div class="services-button"><a href=""><p>詳しく見る</p><i class="fa-solid fa-angle-right services-fa-angle-right"></i></a></div>
+        </div><!--/.services-menu-->
+    </div><!--/#services-->
+
+    <!-- 施工実績 -->
+    <div id="works">
+        <div class="works-title">
+            <p>WORKS</p>
+            <h2>施工実績</h2>
+        </div>
+
+        <div class="swiper js-swiper2">
+            <div class="swiper-wrapper swiper-wrapper2">
+                <div class="swiper-slide works-lists">
+                    <a href="">
+                        <div class="swiper-slide-img"><img src="./img/works1.jpg" alt=""></div>
+                        <p>田島様邸</p>
+                    </a>
+                </div>
+                <div class="swiper-slide works-lists">
+                    <a href="">
+                        <div class="swiper-slide-img"><img src="./img/works2.jpg" alt=""></div>
+                        <p>木村様邸</p>
+                    </a>
+                </div>
+                <div class="swiper-slide works-lists">
+                    <a href="">
+                        <div class="swiper-slide-img"><img src="./img/works3.jpg" alt=""></div>
+                        <p>後藤様邸</p>
+                    </a>
+                </div>
+                <div class="swiper-slide works-lists">
+                    <a href="">
+                        <div class="swiper-slide-img"><img src="./img/works4.jpg" alt=""></div>
+                        <p>佐野様邸</p>
+                    </a>
+                </div>
+                <div class="swiper-slide works-lists">
+                    <a href="">
+                        <div class="swiper-slide-img"><img src="./img/works5.jpg" alt=""></div>
+                        <p>池崎様邸</p>
+                    </a>
+                </div>
+                <div class="swiper-slide works-lists">
+                    <a href="">
+                        <div class="swiper-slide-img"><img src="./img/works6.jpg" alt=""></div>
+                        <p>松田様邸</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div><!--/.swiper .js-swiper2-->
+
+        <div class="works-button"><a href=""><p>施工実績一覧</p><i class="fa-solid fa-angle-right works-fa-angle-right"></i></a></div>
+    </div><!--/#works-->
+
+    <!-- お知らせ -->
+    <div id="news">
+        <div class="news-title">
+            <p>NEWS</p>
+            <h2>お知らせ</h2>
+        </div>
+
+        <div class="news-contents">
+            <dl>
+                <dd><a href="">2020.01.01</a></dd>
+                <dt><a href="">テキストテキストテキストテキストテキストテキスト</a></dt>
+            </dl>
+            <dl>
+                <dd><a href="">2021.02.02</a></dd>
+                <dt><a href="">テキストテキストテキストテキストテキストテキスト</a></dt>
+            </dl>
+            <dl>
+                <dd><a href="">2022.03.03</a></dd>
+                <dt><a href="">テキストテキストテキストテキストテキストテキスト</a></dt>
+            </dl>
+            <dl>
+                <dd><a href="">2023.04.04</a></dd>
+                <dt><a href="">テキストテキストテキストテキストテキストテキスト</a></dt>
+            </dl>
+        </div><!--/.news-contents-->
+    </div><!--/#news-->
+
+    <!-- お問い合せ -->
+    <div id="contact">
+        <div class="contact-tel">
+            <a href="">
+                <i class="fa-solid fa-phone"></i>
+                <div>
+                    <p>電話でのお問い合わせ</p>
+                    <!-- <a href="tel:0123-456-789"></a>--><p>0123-456-789</p>
+                    <p>受付時間 &nbsp 9:00～18:00(土日を除く)</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="contact-mail">
+            <a href="">
+                <i class="fa-regular fa-envelope"></i>
+                <div>
+                    <p>メールでのお問い合せ</p>
+                    <p>お問い合せフォーム</p>
+                    <p>3営業日以内に返信</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="footer-inner">
+        <h2><a href="#">望月設備</a></h2>
+
+        <nav class="footer-nav">
+            <ul>
+                <li><a href="#">会社情報</a></li>
+                <li><a href="#services">取扱工事</a></li>
+                <li><a href="#works">施工事例</a></li>
+                <li><a href="#news">お知らせ</a></li>
+                <li><a href="#contact">お問い合せ</a></li>
+            </ul>
+        </nav>
+
+        <div class="footer-copyright">
+            <p>COPYRIGHT&thinsp;&copy;&thinsp;望月設備</p>
+            <!-- &thinsp &ensp &emsp -->
+        </div>
+    </div>
+</footer>
+
+<!-- CDN -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
